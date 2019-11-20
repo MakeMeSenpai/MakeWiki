@@ -8,8 +8,8 @@
 `PageListView`:
 
 - [√] On `GET`, display a homepage that shows all Pages in your wiki.
-- [ ]  Replace the CHALLENGE text with a descriptive docstring for `PageListView`.
-- [ ] Replace `pass` below with the code to render a template named `list.html`.
+- [√] Replace the CHALLENGE text with a descriptive docstring for `PageListView`.
+- [√] Replace `pass` below with the code to render a template named `list.html`.
 
 #### `wiki/urls.py`
  - [ ] Refactor the URL named `wiki-list-page` and point it to the root route (`/`).
