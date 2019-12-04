@@ -6,8 +6,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     # Admin Site
-    path('admin/', admin.site.urls),
+    path('accounts/login/', admin.site.urls),
 
     # Wiki App
     path('', include('wiki.urls')),
+
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
